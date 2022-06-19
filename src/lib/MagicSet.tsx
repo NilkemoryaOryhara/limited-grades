@@ -15,6 +15,7 @@ import StxIcon from "keyrune/svg/stx.svg";
 import VowIcon from "keyrune/svg/vow.svg";
 import WarIcon from "keyrune/svg/war.svg";
 import ZnrIcon from "keyrune/svg/znr.svg";
+import ThbIcon from "keyrune/svg/thb.svg";
 import { FC, ReactElement, SVGProps } from "react";
 
 import Deck from "./Deck";
@@ -137,6 +138,8 @@ export default class MagicSet {
   );
 
   static IKORIA = new MagicSet("iko", "Ikoria", "2020-04-16", IkoIcon);
+
+  static THEROS_BEYOND_DEATH = new MagicSet("thb", "Theros Beyond Death", "2020-01-24", ThbIcon);
 
   static WAR_OF_THE_SPARK = new MagicSet(
     "war",
