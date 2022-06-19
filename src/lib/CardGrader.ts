@@ -5,8 +5,8 @@ import Deck from "./Deck";
 import DefaultMap from "./DefaultMap";
 import { CardStats, Grade } from "./types";
 
-const MIN_GAMES_DRAWN_FOR_INFERENCE = 100;
-const MIN_GAMES_DRAWN = 400;
+const MIN_GAMES_DRAWN_FOR_INFERENCE = 1;
+const MIN_GAMES_DRAWN = 1;
 
 const GRADE_THRESHOLDS: [Grade, number][] = [
   [Grade.A_PLUS, 99],
